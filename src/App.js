@@ -25,13 +25,13 @@ function App() {
 		setWeather(weather.data);
 	}
 
-	if (location == false) {
+	if (location === false) {
 		return (
 			<Fragment>
 				Preciso que você permita que eu acesse a sua localização :)
 			</Fragment>
 		);
-	} else if (weather == false) {
+	} else if (weather === false) {
 		return (
 			<Fragment>
 				Buscando o clima
